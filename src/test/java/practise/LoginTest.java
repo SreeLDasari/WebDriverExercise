@@ -101,7 +101,7 @@ public class LoginTest {
 		  else if (result.getStatus() == ITestResult.SUCCESS) {
 		   test.log(Status.PASS, "Test Case PASSED IS " + result.getName());
 		  }
-		driver.quit();
+	
 		
 	}
 	 @AfterTest
