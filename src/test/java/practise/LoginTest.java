@@ -107,5 +107,7 @@ public class LoginTest {
 	 @AfterTest
 	 public void endReport() {
 	  report.flush();
+		driver.quit();
+
 	 }
 }
