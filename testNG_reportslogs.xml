@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="Regression Test suite">
+<test name="application test">
+	<classes>
+		<class name="practise.TestNG_ReportsAndLogs"></class>
+	</classes>
+	</test>
+</suite>

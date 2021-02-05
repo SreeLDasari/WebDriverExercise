@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Regression">
+	<test name="Groups Demo">
+		<groups>
+			<define name="all">
+				<include name="Reg"></include>
+				<include name="smoke"></include>
+			</define>
+			<define name="Reg">
+				<include name="Reg"></include>
+			
+			</define>
+			<define name="none">
+				<include name=""></include>
+			
+			</define>
+			
+			<run>
+				<include name="none"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="practise.TestNG_Grouping"></class>
+		</classes>
+	</test>
+</suite>
